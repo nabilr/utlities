@@ -1,11 +1,11 @@
-" use indentation of previous line
+" Nabil Rahiman
+" script to support C style guidelines
+" copy .vimrc file to your home directory  
+" cp .vimrc ~/ "
 set autoindent
-" use intelligent indentation for C
 set smartindent
-" configure tabwidth and insert spaces instead of tabs
-set tabstop=4        " tab width is 4 spaces
-set shiftwidth=4     " indent also with 4 spaces
+set tabstop=4 
+set shiftwidth=4
 set expandtab
 set showmatch
-" intelligent comments
 set comments=sl:/*,mb:\ *,elx:\ */
